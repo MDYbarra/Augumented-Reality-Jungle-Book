@@ -33,13 +33,17 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
         vbButtonObject = GameObject.Find("VirtualButtonFC");
         vbButtonObject.GetComponent<VirtualButtonBehaviour>().RegisterEventHandler(this);
 
-        // Find tiger
+        // Find tiger and set to false(not displying)
         tiger = GameObject.Find("Tiger");
+        tiger.GetComponent<GameObject>();
+        tiger.SetActive(false);
 
 
 
         aSourceFC.clip = frontCoverBGMusic;
         aSourceName.clip = frontCoverNameTitle;
+
+
 
     }
 
@@ -52,7 +56,8 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
         // Play Crash Bandicoot 1 time when pressed
         aSourceName.Play();
 
-        // Tiger Animantion WALK
+        // Turn on Tiger  and start Animantion WALK
+        tiger.SetActive(true);
         tiger.GetComponent<Animation>().Play();
 
 
@@ -73,8 +78,9 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
         // Button is release intro clip stops
         aSourceName.Stop();
 
-        // Tiger Animantion RUN
-       // tiger.GetComponent<Animation>().Stop();
+        // Stop tiger Animation and turn off tiger
+        tiger.GetComponent<Animation>().Stop();
+        tiger.SetActive(false);
 
 
     }
