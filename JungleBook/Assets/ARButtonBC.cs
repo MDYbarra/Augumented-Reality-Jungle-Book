@@ -35,17 +35,23 @@ public class ARButtonBC : MonoBehaviour, IVirtualButtonEventHandler
         quad = GameObject.Find("Quad");
         backdrop = GameObject.Find("BCBD");
 
+        // Will appear on back cover unless turn to FASLE here
         quad.SetActive(false);
         backdrop.SetActive(false);
+        review.SetActive(false);
     }
 
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
+
+        // Turns off info given once detected
         presshere.SetActive(false);
         auther.SetActive(false);
         presshereplane.SetActive(false);
 
+
+        // ONce button is held display reviews and video
         quad.SetActive(true);
         review.SetActive(true);
         backdrop.SetActive(true);
@@ -54,10 +60,13 @@ public class ARButtonBC : MonoBehaviour, IVirtualButtonEventHandler
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
+        // return to orginal display when button not held
         presshere.SetActive(true);
         auther.SetActive(true);
         presshereplane.SetActive(true);
 
+
+        // Turn off reviews and video
         review.SetActive(false);
         quad.SetActive(false);
         backdrop.SetActive(false);
