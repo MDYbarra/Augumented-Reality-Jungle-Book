@@ -16,6 +16,7 @@ public class ARButtonBC : MonoBehaviour, IVirtualButtonEventHandler
     public GameObject review;
     public GameObject quad;
     public GameObject backdrop;
+    public GameObject ratings;
 
 
 
@@ -34,11 +35,14 @@ public class ARButtonBC : MonoBehaviour, IVirtualButtonEventHandler
         review = GameObject.Find("Review");
         quad = GameObject.Find("Quad");
         backdrop = GameObject.Find("BCBD");
+        ratings = GameObject.Find("cherry");
+
 
         // Will appear on back cover unless turn to FASLE here
         quad.SetActive(false);
         backdrop.SetActive(false);
         review.SetActive(false);
+        ratings.SetActive(false);
     }
 
 
@@ -55,6 +59,7 @@ public class ARButtonBC : MonoBehaviour, IVirtualButtonEventHandler
         quad.SetActive(true);
         review.SetActive(true);
         backdrop.SetActive(true);
+        ratings.SetActive(true);
 
     }
 
@@ -70,6 +75,7 @@ public class ARButtonBC : MonoBehaviour, IVirtualButtonEventHandler
         review.SetActive(false);
         quad.SetActive(false);
         backdrop.SetActive(false);
+        ratings.SetActive(false);
 
     }
 
