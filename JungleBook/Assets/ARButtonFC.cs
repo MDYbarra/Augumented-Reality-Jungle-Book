@@ -14,8 +14,8 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
     public GameObject tiger;
 
     // Back ground music crash bandicoot
-    public AudioClip frontCoverBGMusic;
-    public AudioSource aSourceFC;
+   // public AudioClip frontCoverBGMusic;
+   // public AudioSource aSourceFC;
 
     // Audio clip of title, authur, message
     public AudioSource aSourceName;
@@ -40,8 +40,8 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
 
 
         // Set Audio Source to AudioClip
-        aSourceFC.clip = frontCoverBGMusic;
-        aSourceName.clip = frontCoverNameTitle;
+       // aSourceFC.clip = frontCoverBGMusic;
+       // aSourceName.clip = frontCoverNameTitle;
 
     }
 
@@ -60,7 +60,7 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
 
         // Small delayed added to clip to play while AR button
         // is held down intro clip will play
-        aSourceFC.Play();
+       // aSourceFC.Play();
 
        
     }
@@ -72,7 +72,7 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
         Debug.Log("Button Released");
 
         // Button is release intro clip stops
-        aSourceName.Stop();
+       // aSourceName.Stop();
 
         // Stop tiger Animation and turn off tiger
         tiger.GetComponent<Animation>().Stop();

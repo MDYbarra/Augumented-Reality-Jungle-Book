@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{AC117F33-7D66-1D4A-FB57-A2670BB56C60}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARButtonFC.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ambientMusic.cs">
     <Files>
       <File FileName="Assets/Resources/sounds/music.cs" Line="9" Column="1" />
-      <File FileName="Assets/ARButtonBC.cs" Line="37" Column="1" />
-      <File FileName="Assets/ARButtonFC.cs" Line="15" Column="1" NotebookId="1" />
+      <File FileName="Assets/ARButtonBC.cs" Line="78" Column="34" />
+      <File FileName="Assets/ambientMusic.cs" Line="35" Column="10" />
+      <File FileName="Assets/ARButtonFC.cs" Line="75" Column="10" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="785135e1-549f-4b83-99fc-e175c80ba75c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3856eacf-3200-497e-966d-b60dab3b28fb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
