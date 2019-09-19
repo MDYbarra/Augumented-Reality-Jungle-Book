@@ -39,11 +39,9 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
         tiger.SetActive(false);
 
 
-
+        // Set Audio Source to AudioClip
         aSourceFC.clip = frontCoverBGMusic;
         aSourceName.clip = frontCoverNameTitle;
-
-
 
     }
 
@@ -59,8 +57,6 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
         // Turn on Tiger  and start Animantion WALK
         tiger.SetActive(true);
         tiger.GetComponent<Animation>().Play();
-
-
 
         // Small delayed added to clip to play while AR button
         // is held down intro clip will play
