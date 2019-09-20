@@ -8,13 +8,16 @@ This project was created using:
   Blender 2.80
   
 To Play:
-  1.) Print out or display on phone the Target images(BackCover,FrontCover)
-      From the Target Images folder.
-  2.) Open Unity Hub and add project to the Project Section. 
-      Besure to use Unity 2019.2.3f1 version, else will crash.
-  3.) Recommend using a wired webcam for best results.
-      Built-in laptop webcams will do.
-  4.) Press Play Icon
+Print out or display on phone the Target images(BackCover,FrontCover)
+From the Target Images folder.
+
+Open Unity Hub and add project to the Project Section. 
+Besure to use Unity 2019.2.3f1 version, else will crash.
+
+Recommend using a wired webcam for best results.
+Built-in laptop webcams will do.
+
+Press Play Icon
      
     Front Cover/Back Cover
       When the FrontCover/BackCover image is detected from the webcam 
