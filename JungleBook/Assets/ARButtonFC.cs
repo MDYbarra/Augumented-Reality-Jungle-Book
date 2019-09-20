@@ -1,4 +1,30 @@
-﻿using System.Collections;
+﻿/*
+ *  Front Cover Virtual Button Controls
+ *
+ *      When VButton is pressed and help an Animated Walking
+ *  Tiger will appear on the Frone cover plane. Along with
+ *  a recorded message of Title, Auther, nice message.
+ *  When VButton is released the animation and recorded
+ *  message will stop and disappear until the button is
+ *  pressed and held again.
+ *
+ *  Code Sources
+ *  
+ *  Audio:
+ *  Unity Tutorial: Playing Audio (Music and Sound Effects)
+ *  By: Bowl and Cereal
+ *  Youtube: https://www.youtube.com/watch?v=egxNXuwf0_g
+ *
+ *  Animation / Virtual Button:
+ *  How To Augmented Reality App Tutorial Virtual Buttons with
+ *  Unity and Vuforia
+ *  By: MatthewHallberg
+ *  Youtube: https://www.youtube.com/watch?v=Fgd21lbhikU&t=648s
+ */
+
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
@@ -6,28 +32,21 @@ using Vuforia;
 public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
 {
 
-
     // AR Button
     public GameObject vbButtonObject;
 
     // Animated Tiger
     public GameObject tiger;
 
-    // Back ground music crash bandicoot
-   // public AudioClip frontCoverBGMusic;
-   // public AudioSource aSourceFC;
-
     // Audio clip of title, authur, message
     public AudioSource aSourceName;
     public AudioClip frontCoverNameTitle;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
-
-        Debug.Log("hello, You have just entered the Start() function");
+      
 
         // Find AR Button
         vbButtonObject = GameObject.Find("VirtualButtonFC");
@@ -38,52 +57,33 @@ public class ARButtonFC : MonoBehaviour, IVirtualButtonEventHandler
         tiger.GetComponent<GameObject>();
         tiger.SetActive(false);
 
-
-        // Set Audio Source to AudioClip
-       // aSourceFC.clip = frontCoverBGMusic;
-       // aSourceName.clip = frontCoverNameTitle;
-
-    }
-
-
+    }// End Start()
 
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         Debug.Log("Button Pressed");
-        // Play Crash Bandicoot 1 time when pressed
+        // Play recorded message
         aSourceName.Play();
 
-        // Turn on Tiger  and start Animantion WALK
+        // Turn on Tiger and start Walk Animantion
         tiger.SetActive(true);
         tiger.GetComponent<Animation>().Play();
 
-        // Small delayed added to clip to play while AR button
-        // is held down intro clip will play
-       // aSourceFC.Play();
-
-       
-    }
-
+    }// End OnButtonPressed()
 
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
         Debug.Log("Button Released");
-
-        // Button is release intro clip stops
-       // aSourceName.Stop();
+        // Record Message  stops
+        aSourceName.Stop();
 
         // Stop tiger Animation and turn off tiger
         tiger.GetComponent<Animation>().Stop();
         tiger.SetActive(false);
 
-
-    }
-
-
-
-
+    }// End OnButtonRleased()
 
 
 
