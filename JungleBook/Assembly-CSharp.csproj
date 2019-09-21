@@ -71,6 +71,7 @@
     <Compile Include="Assets\Resources\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
     <Compile Include="Assets\Resources\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\Resources\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+    <Compile Include="Assets\Resources\sounds\Music.cs" />
     <None Include="Assets\Resources\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
     <None Include="Assets\Resources\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
     <None Include="Assets\Resources\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
@@ -96,37 +97,37 @@
     <None Include="Assets\Resources\ProCore\ProBuilder\readme.txt" />
     <None Include="Assets\Resources\ProCore\ProBuilder\Shader\pb_SmoothingPreview.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VuforiaScripts">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="VuforiaEditorScripts">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -306,22 +307,22 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
     </Reference>
     <Reference Include="Poly2Tri">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Assets/Resources/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>/Users/michaelybarra/Desktop/JungleBook/Library/PackageCache/com.ptc.vuforia.engine@8.3.9/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+      <HintPath>/Users/michaelybarra/Desktop/Augumented-Reality-Jungle-Book/JungleBook/Library/PackageCache/com.ptc.vuforia.engine@8.3.9/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
